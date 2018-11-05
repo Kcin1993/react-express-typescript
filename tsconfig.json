@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "noImplicitAny": true, // strict config
+    "noImplicitAny": true,
     "strictNullChecks": true,
     "alwaysStrict": true,
     "sourceMap": false,
@@ -21,5 +21,7 @@
     "noImplicitThis": true,
     "pretty": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
